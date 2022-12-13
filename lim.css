@@ -1,0 +1,62 @@
+body{
+  background-image: url('scooterlim.jpg');
+  background-size: cover;
+}
+
+.contenitore{
+  background: rgba(40,40,40,0.75) ;
+  width: 800px;
+  margin: auto;
+  padding: 105px;
+  border-radius: 15px;
+}
+header{
+  color: green;
+  text-align: center;
+}
+nav{
+  text-align: center;
+  background-color: green;
+  padding: 10px;
+  border-radius: 10px
+}
+
+.hover :hover:first-child{
+  color: lightgray;
+  border-style:dotted;
+}
+3
+section{
+  padding-top: 15px;
+}
+.caratteristiche > span{
+  font-size: 25px;
+}
+
+span{
+  color: white;
+}
+
+#arancio{
+  border-radius: 5px;
+  background-color: orange;
+  color: orange;
+}
+
+#verde{
+  width: 75%;
+  border-radius: 5px;
+  background-color: green;
+  color: green;
+}
+
+#rosso{
+  border-radius: 5px;
+  background-color: red;
+  color: red;
+}
+
+.oggetto::before{
+  content: "\21A6";
+}
+&#x21A6;

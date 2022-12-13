@@ -1,0 +1,80 @@
+body{
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsfondo.info%2Fi%2Foriginal%2Ff%2F0%2Fd%2F67828.jpg&f=1&nofb=1&ipt=7b63b7520eafa54b9305edd0da4622815dfcfeed6ace9aa331cf54bcfcf09414&ipo=images');
+  color: white;
+}
+
+.contenitore1{
+  width: 800px;
+  margin: auto;
+
+}
+
+.main-contenitore{
+  width: 800px;
+  margin: auto;
+}
+
+#gmail{
+  font-size: 27px;
+}
+
+h3 > span{
+  background-color: orange;
+  border-radius: 50%;
+  padding-left: 5px;
+}
+
+/* .star:after{
+  content:  "\2605";
+} */
+.EMAIL{
+  background-color: lightgray;
+}
+.row-left, .row-right{
+  display: inline-block;
+}
+
+.row-left{
+  color: black;
+  width: 28%;
+}
+
+.row-right{
+  color: black;
+  width: 70%;
+}
+
+.subject{
+  color: black;
+}
+
+.EMAIL .body{
+  color: gray;
+}
+
+.EMAIL .body:after{
+  content: '....'
+}
+
+
+.EMAIL3{
+  color: black;
+  background-color: lightgray;
+}
+.EMAIL5{
+  color: black;
+  background-color: white;
+}
+
+.EMAIL5{
+  color: black;
+  background-color: lightgray;
+}
+
+
+footer{
+  text-align: center;
+}
+footer>span{
+  font-size: 27px;
+}
