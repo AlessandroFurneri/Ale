@@ -1,0 +1,76 @@
+.contenitore{
+  width: 900px;
+  background: ;
+  margin: auto;
+  position: relative;
+}
+
+.preferiti:hover{
+  background-color: red;
+  color: black;
+}
+
+.preferiti {
+  width: 36px;
+  font-size: 27px;
+  position: absolute;
+  bottom: 3px;
+  left: 150px;
+  color: red;
+  border-radius: 100%;
+  border: 1px solid firebrick;
+  text-align: center;
+}
+
+#imgUNO{
+  background-image: url('pd1.jpg');
+  width: 33%;
+  height: 380px;
+  border-radius: 10px;
+  background-size: auto;
+  display: inline-block;
+  position: relative;
+}
+
+#imgDUE{
+  background-image: url('pd2.jpg');
+  width: 33%;
+  height: 380px;
+  border-radius: 10px;
+  background-size: cover;
+  display: inline-block;
+  position: relative;
+}
+
+#imgTRE{
+  background-image: url('pd3.jpg');
+  width: 33%;
+  height: 380px;
+  border-radius: 10px;
+  background-size: cover;
+  display: inline-block;
+  position: relative;
+}
+
+.saldo{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: red;
+  border-radius: 4px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.sald{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 4px;
+  background: green;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}

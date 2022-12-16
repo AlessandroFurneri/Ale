@@ -37,21 +37,25 @@ span{
   color: white;
 }
 
-#arancio{
+.batteria{
+  height: 20px;
   border-radius: 5px;
+}
+
+.arancio{
+  width: 300px;
   background-color: orange;
   color: orange;
 }
 
-#verde{
-  width: 75%;
-  border-radius: 5px;
+.verde{
+  width: 500px;
   background-color: green;
   color: green;
 }
 
-#rosso{
-  border-radius: 5px;
+.rosso{
+  width: 78px;
   background-color: red;
   color: red;
 }
@@ -59,4 +63,3 @@ span{
 .oggetto::before{
   content: "\21A6";
 }
-&#x21A6;
